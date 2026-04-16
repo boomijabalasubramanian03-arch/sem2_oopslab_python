@@ -17,3 +17,18 @@ def primefact(n):
      if c==0:
       l2.append(j)
    return l2
+
+from factors import *
+num1 = int(input("ENTER THE NUMBER:"))
+res1 = factor(num1)
+print("THE FACTORS OF",num1,"ARE :")
+for i in res1:
+      print(i,end=' ')
+print()
+
+num2 = int(input("ENTER THE NUMBER:"))
+res2 = primefact(num2)
+print("THE PRIME FACTORS OF",num2,"ARE :")
+for i in res2:
+   print(i,end=' ')
+print()
