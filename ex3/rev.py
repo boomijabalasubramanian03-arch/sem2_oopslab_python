@@ -1,0 +1,2 @@
+l = eval(input("ENTER THE LIST ELEMENTS:"))
+print("THE ELEMENTS OF LIST IN REVERSE ORDER IS:",l[::-1])
